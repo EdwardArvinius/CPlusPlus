@@ -1,0 +1,2 @@
+This is a simple weather program that calculates and prints the highest recorded temerature, the lowest recorded temperature, the average 
+daily high temperature and the average daily low temperature from the text file "weather1337"
