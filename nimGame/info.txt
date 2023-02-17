@@ -1,0 +1,6 @@
+This is a fairly simple game
+There are 25 objects
+Each player has the option to remove a certain number
+Within the range of "<< min_move <<" and " << max_move << 
+The player forced to make the last move losses
+The computer is Player 0 and you are Player 1

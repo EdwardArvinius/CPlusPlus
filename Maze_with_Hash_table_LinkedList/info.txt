@@ -1,0 +1,15 @@
+Data structures:
+I used a linked list queue to dynamically allocate array cells. I used struct to hold row, column, and next pointer. 
+I used a character array to hold the maze. I also used a bool variable called “goalFound” to check if the goal was found.
+Functions:
+I used a Enqueue function called “Insert” to add maze cell nodes to the end of the queue. As well as a dequeue function 
+called “Delete()” to remove maze cell nodes from the end of the queue.
+Procedure:
+The program starts by letting the user input a maze file. Then the program reads the width and height and puts it into variables. 
+Then, the program fills the information from the text file into a character array. Then, the program determine where the start cell is. 
+This is done with nested for loops. Then the program prints the maze.
+Furthermore, the program adds the start cell to the queue. After this, the program traverses the maze with a while loop. It checks if 
+there is a cell to the right, below, to the left, and above using if statements. For each one that is true, check if it is ‘G’- if so 
+set “goalFound” to true and break the loop. Then it checks if there is a cell to the right, below, to the left, and above using if statements. 
+For each one that is true, check if it is the character ‘.’- if so, add that cell to the queue. Then the program set the current 
+maze cell to ‘V’ for visited. The program ends with a check if the maze was traversed. Then it prints the maze.
